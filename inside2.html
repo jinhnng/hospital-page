@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+   <link href="nurse.css" rel="stylesheet">
+     <style>
+ img {
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position: absolute;
+        }
+
+      
+        #planet3 {
+            animation-name: rotate-faster;
+            animation-duration: 180s;
+        }
+
+     #planet4 {
+            animation-name: rotate-slower;
+            animation-duration: 140s;
+        }
+     #planet5 {
+            animation-name: rotate-faster;
+            animation-duration: 180s;
+        }
+
+        @keyframes rotate-faster {
+            0% { transform: rotate(0); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes rotate-slower {
+            0% { transform: rotate(0); }
+            100% { transform: rotate(-360deg); }
+        }
+    </style>    
+</head>
+<body id="body3"> <audio controls autoplay loop hidden><source src="room2.mp4" ></audio>
+    <img id="inside2" src="hospital2.png">
+    <center><a href="inside3.html"id="enter">enter in</a></center>
+   <a href="deepinside2.html"><img id="planet3"  src="planet3.png"></a>
+       <a href="deepinside2.html"><img id="planet4"  src="planet4.png"></a>
+    <a href="deepinside2.html"><img id="planet5"  src="planet5.png"></a>
+</body>
+</html>

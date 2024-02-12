@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+   <link href="nurse.css" rel="stylesheet">
+          <style>
+ img {
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position: absolute;
+        }
+
+      
+        #planet6 {
+            animation-name: rotate-faster;
+            animation-duration: 170s;
+        }
+
+     #planet7 {
+            animation-name: rotate-faster;
+            animation-duration: 100s;
+        }
+ #planet8 {
+            animation-name: rotate-faster;
+            animation-duration: 180s;
+        }
+  #planet9 {
+            animation-name: rotate-faster;
+            animation-duration: 100s;
+        }
+
+
+        @keyframes rotate-faster {
+            0% { transform: rotate(0); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes rotate-slower {
+            0% { transform: rotate(0); }
+            100% { transform: rotate(-360deg); }
+        }
+    </style> 
+  
+</head>
+<body id="body4"><audio controls autoplay loop hidden><source src="room3.mp4" ></audio>
+    <img id="inside3" src="hospital4.png">
+    <center><a href="inside4.html"id="enter">enter in</a></center>
+  <a href="deepinside3.html"><img id="planet6"  src="planet6.png"></a>
+       <a href="deepinside3.html"><img id="planet7"  src="planet7.png"></a>
+    <a href="deepinside3.html"><img id="planet8"  src="planet8.png"></a>
+    <a href="deepinside3.html"><img  id="planet9"  src="planet9.png"></a>
+    
+</body>
+</html>
